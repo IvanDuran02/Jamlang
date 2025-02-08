@@ -1,0 +1,16 @@
+# Bazel output directories (these can be very large)
+bazel-*
+
+# Bazel caches
+~/.cache/bazel
+~/.bazel-*
+
+# Build artifacts
+**/bazel-out/
+**/bazel-bin/
+**/bazel-genfiles/
+**/bazel-testlogs/
+
+# User-specific configuration
+.bazelrc.user
+
