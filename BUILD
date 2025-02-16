@@ -1,5 +1,5 @@
 cc_binary(
     name = "Jamlang",
-    srcs = ["main.cpp"],
-    deps = ["//ast", "//lexer", "//parser", "//logger"]
+    srcs = ["src/main.cpp"],
+    deps = ["//src/ast", "//src/lexer", "//src/parser", "//src/logger"]
 )
