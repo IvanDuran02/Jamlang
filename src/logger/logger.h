@@ -4,6 +4,6 @@
 class ExprAST;
 class PrototypeAST;
 
-std::unique_ptr<ExprAST> LogError(const char *Str);
+std::unique_ptr<ExprAST> LogError(const std::string& msg, char found);
 
-std::unique_ptr<PrototypeAST> LogErrorP(const char *Str);
+std::unique_ptr<PrototypeAST> LogErrorP(const std::string& msg, char found);
